@@ -1,0 +1,542 @@
+body{
+    margin: 0;
+}
+
+.all-section{
+    padding-bottom: 140px;
+    padding-top: 140px;
+}
+.container{
+    max-width: 1260px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*Gradjansko pravo css*/
+.hero-section-civil-rights{
+    background-image: url('/img/civil-right-hero-4635036.jpg');  /* Postavite putanju do vaše slike */
+    background-position: center;  /* Centrirajte pozadinu */
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.civil-rights-wrapper{
+    text-align: center;
+    font-size: 20px;
+}
+.civil-rights-wrapper-text{
+    text-align: left;
+}
+.civil-rights-bold{
+    font-weight: 900;
+    text-decoration: underline;
+}
+.civil-rights-main-text{
+    font-family: 'Judson', serif;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #5D4920;
+}
+.civil-rights-about-text{
+    font-family: 'Judson', serif;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #5D4920;
+    margin-bottom: 40px;
+}
+.civil-right-services-content-wrapper{
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 50px;
+    text-align: center;
+}
+.civil-services-margin{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 140px;
+}
+.civil-right-services-content-heading{
+    width: 200px;
+}
+
+
+/*Krivicno pravo css*/
+.criminal-section-civil-rights{
+    background-image: url('/img/krivicno-hero.jpg');  /* Postavite putanju do vaše slike */
+    background-position: center;  /* Centrirajte pozadinu */
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+
+/*Krivicno pravo css*/
+.hero-section-bussnes-laws{
+    background-image: url('/img/poslovno-pravo-hero.png');  /* Postavite putanju do vaše slike */
+    background-position: center;  /* Centrirajte pozadinu */
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+
+/*Porodicno pravo css*/
+.hero-section-family-laws{
+    background-image: url('/img/hero-family-laws.png');  /* Postavite putanju do vaše slike */
+    background-position: center;  /* Centrirajte pozadinu */
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+
+
+.hero-section{
+    background-image: url('/img/hero-img\ +\ owerlay.png');  /* Postavite putanju do vaše slike */
+    background-position: center;  /* Centrirajte pozadinu */
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+.hero-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-section-heading{
+    font-family: 'Junge';
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+.hero-section-subtitle{
+    font-family: 'Judson', serif;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+.about-section{
+    background-color: #D9D9D9;
+}
+.about-heading{
+    text-align: center;
+    font-family: 'Junge';
+    font-size: 35px;
+    margin-bottom: 120px;
+}
+.about-content-wrapper{
+    display: flex;
+    align-items: center;
+}
+.about-text{
+    font-family: 'Judson', serif;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #5D4920;
+}
+.about-img-wrapper{
+    margin-left: 60px;
+}
+
+
+
+.our-team-section{
+    background-color: rgba(43, 27, 17, 0.7);
+}
+.our-team-text-wrapper{
+    text-align: left;
+    color: #ffffff;
+}
+.our-team-heading{
+    font-size: 35px;
+    font-family: 'Junge';
+    font-size: 35px;
+    margin-bottom: 120px;
+    letter-spacing: 2px;
+}
+.our-team-text{
+    font-family: 'Judson', serif;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.our-team-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.services-section{
+    border-bottom: 1px solid rgb(0, 0, 0, 0.5);
+}
+.services-heading{
+    text-align: center;
+    font-family: 'Junge';
+    font-size: 35px;
+    margin-bottom: 120px;
+    letter-spacing: 2px;
+}
+.services-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.services-content-wrapper{
+    background-color: rgb(0, 0, 0, 0.2);
+    padding: 70px;
+    text-align: center;
+}
+.services-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(93, 73, 32, 0.65);
+}
+.btn-text{
+    text-decoration: none;
+    color: #2B1B11;
+    font-family: 'Judson', serif;
+    font-size: 15px;
+    letter-spacing: 2px
+}
+
+
+
+.numbers-section{
+    border-bottom: rgb(0, 0, 0, 0.2);
+}
+.numbers-container{
+    text-align: center;
+}
+.numbers-heading{
+    font-family: 'Junge';
+    font-size: 40px;
+    margin-bottom: 120px;
+    letter-spacing: 2px;
+} 
+.number-statistic{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: rgb(0, 0, 0, 0.2);
+    margin-bottom: 60px;
+    border: 1px solid rgb(0, 0, 0, 0.5);;
+    border-radius: 20px;
+}
+.number-statistic-text-wrapper{
+    background-color: #D9D9D9;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid rgb(0, 0, 0, 0.5);;
+    border-radius: 20px;
+} 
+.number-statistic-text{
+    color: #5D4920;
+    font-family: 'Judson', serif;
+    font-size: 25px;
+    letter-spacing: 2px
+}
+
+
+
+.contact-section{
+    padding-top: 0;
+}
+.contact-form-container{
+    display: flex;
+    justify-content: center;
+}
+.contatact-form-heading-wrapper{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #AEAEAE;
+    border-top: 1px solid rgb(0, 0, 0, 0.5);
+    border-left: 1px solid rgb(0, 0, 0, 0.5);
+    border-right: 1px solid rgb(0, 0, 0, 0.5);
+}
+.contact-form-heading{
+    margin: 0;
+    font-family: 'Judson', serif;
+    font-size: 35px;
+    color: #5D4920;
+}
+.lable{
+    margin: 0;
+}
+.contact-form{
+    background-color: #D9D9D9;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid rgb(0,0,0,0.5);
+}
+.contact-form-name-surname-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.input-heading{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: 'Judson', serif;
+    font-size: 25px;
+    color: #000000;
+}
+.input-name-surname{
+    padding: 10px;
+    width: 220px;
+}
+.email-wrapper{
+    max-width: 100%;
+    margin-top: 20px;
+}
+.input-email{
+    padding: 10px;
+    width: 96%;
+}
+.message-wrapper{
+    margin-top: 20px;
+    max-width: 100%;
+}
+.btn-wrapper{
+    text-align: center;
+    margin-top: 50px;
+}
+.form-btn{
+    text-decoration: none;
+    font-family: 'Judson', serif;
+    font-size: 20px;
+    color: #2B1B11;
+}
+
+
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgb(0, 0, 0, 0.5);
+    background-color: #60544C;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+.footer-content-wrapper{
+    display: flex;
+}
+.footer-heading{
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-family: 'Judson', serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+.footer-social-media{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Judson', serif;
+    margin: 4px;
+}
+.newsletter-wrapper{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+}
+.newsletter-heading{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-family: 'Judson', serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+.newsletter-input{
+    padding: 5px;
+}
+.footer-btn{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid rgb(1,1,1,0.1);
+}
+
+@media screen and (max-width: 1200px) {
+    .about-content-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-heading{
+        margin-bottom: 60px;
+    }
+    .about-text{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .our-team-text-wrapper{
+        text-align: center;
+    }
+    .number-statistic-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .number-statistic{
+        width: 50%;
+    }
+    .civil-right-services-content-wrapper {
+        padding: 40px;
+    }
+    .civil-rights-about-text {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    .hero-section-heading{
+        text-align: center;
+        font-size: 35px;
+    }
+    .hero-section-subtitle{
+        font-size: 20px;
+    }
+    .about-text{
+        margin-bottom: 60px;
+    }
+    .about-img-wrapper{
+        margin: 0;
+    }
+    .about-img{
+        width: 500px;
+    }
+    .our-team-img-wrapper {
+        flex-direction: column;
+    }
+    .our-team-img{
+        margin-bottom: 60px;
+    }
+    .services-wrapper{
+        flex-direction: column;
+    }
+    .services-content-wrapper{
+        margin-bottom: 60px;
+    }
+    .number-statistic{
+    width: 25%;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+    .number-statistic-text-wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+    }
+    .number-statistic-text{
+    font-size: 19px;
+    letter-spacing: 0px;
+    }
+    .contatact-form-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .contact-form{
+        width: 420px;
+    }
+    .input-name-surname {
+        margin-bottom: 20px;
+    }
+    .contact-form-name-surname-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    }
+    .contatact-form-heading-wrapper{
+        width: 300px;
+    }
+    .contact-form-heading{
+        text-align: center;
+        font-size: 30px;
+    }
+    .email-wrapper{
+        text-align: center;
+    }
+    .input-email{
+        width: 220px;
+    }
+    .message-wrapper{
+        text-align: center;
+    }
+    .text-area-poruka{
+        width: 242.5px;
+        height: 200px;
+        resize: none;
+    }
+}
+@media screen and (max-width: 1130px){
+    .services-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .services-content-wrapper{
+        margin-bottom: 60px;
+    }
+    .our-team-img-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .our-team-img{
+        margin-bottom: 60px;
+    }
+    .number-statistic {
+        width: 28%;
+    }
+}
+@media screen and (max-width: 715px) {
+    .number-statistic{
+        width: 25%;
+        padding-left: 190px;
+        padding-right: 190px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        }
+        .number-statistic-text-wrapper{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 60%;
+        }
+        .number-statistic-text{
+        font-size: 19px;
+        letter-spacing: 0px;
+        }
+}
